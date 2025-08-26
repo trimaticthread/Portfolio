@@ -72,21 +72,21 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: t('projects.ecommerceAnalytics.title'),
-      category: t('projects.ecommerceAnalytics.category'),
-      description: t('projects.ecommerceAnalytics.description'),
-      image: "/project-placeholder.png",
-      gradient: "from-orange-600 via-red-600 to-pink-600",
-      featured: false,
-      status: "in-progress",
+      title: t('projects.fileServer.title'),
+      category: t('projects.fileServer.category'),
+      description: t('projects.fileServer.description'),
+      image: "/file-server.png",
+      gradient: "from-red-600 via-pink-600 to-indigo-600",
+      featured: true,
+      status: "completed",
       details: {
-        client: t('projects.ecommerceAnalytics.client'),
-        year: "2025",
-        technologies: ["React", "TypeScript", "Node.js", "Chart.js", "MongoDB", "Express.js"],
-        link: "https://example.com/analytics",
-        github: "https://github.com/trimaticthread/ecommerce-analytics",
-        demo: "https://demo-analytics.example.com",
-        longDescription: t('projects.ecommerceAnalytics.longDescription')
+        client: t('projects.fileServer.client'),
+        year: "2024",
+        technologies: ["FastAPI", "Python","React", "TypeScript", "PostgreSQL", "Docker","Git & Github"],
+        link: "https://github.com/trimaticthread/File-Server",
+        github: "https://github.com/trimaticthread/File-Server",
+        demo: "http://localhost:8081",
+        longDescription: t('projects.fileServer.longDescription')
       }
     }
   ];

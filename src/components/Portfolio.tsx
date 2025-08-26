@@ -69,6 +69,25 @@ const Portfolio = () => {
         github: "https://github.com/trimaticthread/HotelRegistration",
         longDescription: t('projects.hotelBooking.longDescription')
       }
+    },
+    {
+      id: 3,
+      title: t('projects.ecommerceAnalytics.title'),
+      category: t('projects.ecommerceAnalytics.category'),
+      description: t('projects.ecommerceAnalytics.description'),
+      image: "/project-placeholder.png",
+      gradient: "from-orange-600 via-red-600 to-pink-600",
+      featured: false,
+      status: "in-progress",
+      details: {
+        client: t('projects.ecommerceAnalytics.client'),
+        year: "2025",
+        technologies: ["React", "TypeScript", "Node.js", "Chart.js", "MongoDB", "Express.js"],
+        link: "https://example.com/analytics",
+        github: "https://github.com/trimaticthread/ecommerce-analytics",
+        demo: "https://demo-analytics.example.com",
+        longDescription: t('projects.ecommerceAnalytics.longDescription')
+      }
     }
   ];
 

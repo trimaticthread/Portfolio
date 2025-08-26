@@ -81,7 +81,7 @@ const Portfolio = () => {
       status: "completed",
       details: {
         client: t('projects.fileServer.client'),
-        year: "2024",
+        year: "2025",
         technologies: ["FastAPI", "Python","React", "TypeScript", "PostgreSQL", "Docker","Git & Github"],
         link: "https://github.com/trimaticthread/File-Server",
         github: "https://github.com/trimaticthread/File-Server",
